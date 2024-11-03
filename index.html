@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مركز القعيد العلاج الطبيعي</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>مركز القعيد العلاج الطبيعي</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">الخدمات</a></li>
+                <li><a href="#register">تسجيل مريض</a></li>
+                <li><a href="#appointments">المواعيد</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="services">
+            <h2>الخدمات</h2>
+            <p>نقدم مجموعة متنوعة من خدمات العلاج الطبيعي بأحدث الاجهزه:</p>
+            <ul>
+                <li>العلاج اليدوي</li>
+                <li>العلاج بالتمارين</li>
+                <li>التأهيل بعد الإصابات</li>
+                <li>استشارات صحية</li>
+                <li>اصابات ملاعب وتمارين</li>
+            </ul>
+        </section>
+
+        <section id="register">
+            <h2>تسجيل مريض جديد</h2>
+            <form id="registration-form">
+                <label for="patient-name">الاسم:</label>
+                <input type="text" id="patient-name" required>
+
+                <label for="patient-phone">الهاتف:</label>
+                <input type="tel" id="patient-phone" required>
+
+                <button type="submit">تسجيل</button>
+            </form>
+            <div id="registration-confirmation" style="display: none;"></div>
+        </section>
+
+        <section id="appointments">
+            <h2>احجز موعدك</h2>
+            <form id="appointment-form">
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" required>
+                
+                <label for="date">تاريخ الموعد:</label>
+                <input type="date" id="date" required>
+                <label for="date">الساعه</label>
+                <input type="time" id="name" required>
+                <label for="date">اليوم</label>
+                <input type="day" id="name" required>
+                <button type="submit">احجز</button>
+            </form>
+            <div id="confirmation" style="display: none;"></div>
+        </section>
+
+        <section id="contact">
+            <h2>اتصل بنا</h2>
+            <p>يمكنك التواصل معنا عبر:</p>
+            <ul>
+                <li>الهاتف او واتساب : 01002581482</li>
+                <li>البريد الإلكتروني: DevMostafa2003@Gmail.com</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p><copy></copy>مركز القعيد العلاج الطبيعي.</p>
+        <p></p>By: Dev Mostafa Radwan</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
